@@ -5,30 +5,42 @@
 
 body{
 
-    background-color: darkred;
+    background-color: rgb(173, 21, 21);
 }
 
 #container{
     width: 80%;
     margin:0px auto;
-    border: 1px solid black;
+    border: 1px solid rgb(70, 44, 161);
 
 }
 
 #header{
-height: 110px;
-background-color: #000000;
+height: 130px;
+background-color: #3a38aa;
 color: white;
 text-align: center;
 line-height: 100px;
 
 }
 
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+    width: 100;
+}
+
 #menu{
-    background-color: rgb(116, 32, 36);
+    background-color: rgb(153, 18, 25);
     color: white;
     height: 50px;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #2a2891;
 
 }
 
@@ -42,7 +54,7 @@ line-height: 100px;
 #menu ul li{
     line-height: 55px;
     float: left;
-    border-right: 1px solid #050505;
+    border-right: 1px solid #372696;
 }
 
 #menu a{
