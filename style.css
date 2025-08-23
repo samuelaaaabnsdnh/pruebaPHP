@@ -5,13 +5,14 @@
 
 body{
 
-    background-color: rgb(173, 21, 21);
+    background-color: #ad1515;
 }
 
 #container{
     width: 80%;
     margin:0px auto;
     border: 1px solid rgb(70, 44, 161);
+    color: rgb(226, 214, 214);
 
 }
 
@@ -66,5 +67,21 @@ line-height: 100px;
 }
 
 #menu a:hover{
-    background: #381515;
+    background: #201515;
+}
+
+#content{
+    margin: 0px auto;
+    background: #ad1515;
+}
+
+#lateral{
+    width: 20%;
+    border: 1px solid blue;
+
+}
+
+#central{
+    width: 80%;
+    border: 1px solid blue;
 }
