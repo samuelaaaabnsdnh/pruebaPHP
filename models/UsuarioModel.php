@@ -77,4 +77,8 @@ class Usuario{
     public function conseguirTodos(){
         echo "IMPRIMIENDO TODOS LOS USUARIOS...";
     }
+
+    public function crear(){
+        echo "CREAR USUARIOS ACTIVOS...";
+    }
 }
